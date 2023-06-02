@@ -8,7 +8,7 @@ public class CurrencyConverter {
 
     public static void Converter(){
 
-        JFrame frame = new JFrame("LetsGrowMore :- CURRENCY");
+        JFrame frame = new JFrame(" CURRENCY CONVERTER ");
 
         JLabel label1 , label2;
 
@@ -18,25 +18,25 @@ public class CurrencyConverter {
         JButton button1, button2, button3;
 
         label1 = new JLabel("Rupees : ");
-        label1.setBounds(20,40,60,30);
+        label1.setBounds(20,40,120,30);
 
         label2 = new JLabel("Dollars : ");
         label2.setBounds(170,40,60,30);
 
         text1 = new JTextField("0");
-        text1.setBounds(80,40,50,30);
+        text1.setBounds(80,40,80,30);
 
         text2 = new JTextField("0");
-        text2.setBounds(240,40,50,30);
+        text2.setBounds(240,40,85,30);
 
         button1 = new JButton("INR");
-        button1.setBounds(50,80,60,15);
+        button1.setBounds(80,80,60,25);
 
         button2 = new JButton("Dollar");
-        button2.setBounds(190,80,60,15);
+        button2.setBounds(240,80,90,25);
 
         button3 = new JButton("Close");
-        button3.setBounds(150,150,60,30);
+        button3.setBounds(150,150,90,30);
 
         // Adding action listner
         button1.addActionListener(new ActionListener() {
